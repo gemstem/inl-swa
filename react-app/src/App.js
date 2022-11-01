@@ -23,9 +23,9 @@ function App() {
     <div className="App">
       <h1>React App</h1>
       <p>{foodDrinkData.foodName}</p>
-      <img src={foodDrinkData.foodImg}/>
+      <img src={foodDrinkData.foodImg} alt="Drink"/>
       <p>{foodDrinkData.drinkName}</p>
-      <img src={foodDrinkData.drinkImg}/>
+      <img src={foodDrinkData.drinkImg}alt="Meal"/>
     </div>
   );
 }
